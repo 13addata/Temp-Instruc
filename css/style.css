@@ -1,0 +1,249 @@
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, input, form, button, a, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #eee;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.clearfloat {
+  zoom: 1;
+}
+
+.clearfloat:after {
+  display: block;
+  content: "";
+  visibility: hidden;
+  height: 1px;
+  clear: both;
+}
+
+header {
+  position: relative;
+  height: 150px;
+  background: #2f3234;
+}
+
+header .header-logo {
+  float: left;
+  font-size: 50px;
+  font-family: 'Simonetta', cursive;
+  color: #eee;
+  padding: 44px;
+  background: #DA2A37;
+}
+
+header .header-nav {
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+header .header-nav li {
+  float: left;
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header  input {
+  float: right;
+  margin-top: 86px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #2f3234;
+  padding: 10px 54px 10px 16px;
+  color: #eee;
+  font-size: 14px
+}
+
+header .search-btn {
+  position: relative;
+  left: -26px;
+  margin-top: 96px;
+  float: right;
+  background-color: #2f3234;
+  border: 0;
+  color: #eee;
+  font-size: 16px;
+}
+
+footer {
+  position: relative;
+  margin-top: 100px;
+  padding:80px 0px;
+  text-align: center;
+  color: #eee;
+  background: #DA2A37;
+}
+
+footer h4 {
+  font-family: 'Simonetta', cursive;
+  font-size: 66px;
+  font-weight: 100;
+  padding: 14px 0;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #F3A6AB
+}
+
+footer ul {
+  margin-left: 60px;
+  padding: 30px;
+}
+footer li {
+  padding: 32px;
+  display: inline-block;
+}
+
+footer .footer-line {
+  display: inline-block;
+  position: absolute;
+  top: 246px;
+  content: '';
+  height: 90px;
+  width: 0px;
+  border: 1px solid #eee;
+}
+
+footer .copyright {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #eee;
+}
+
+.index-banner {
+  position: relative;
+  background-color: #2F3234;
+}
+
+.index-banner .index-banner-img {
+  height: 700px;
+  margin-left: 16.6666%;
+  background: url('../images/9.jpg') no-repeat;
+  background-size: cover;
+}
+
+.index-banner .index-banner-img .index-banner-info {
+  position: absolute;
+  width: 42%;
+  top: 36%;
+  left: 10%;
+}
+.index-banner .index-banner-img .index-banner-info h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #eee;
+  background-color: #DA2A37;
+  padding: 12px 32px;
+}
+.index-banner .index-banner-img .index-banner-info p {
+  color: #808080;
+  background-color: #fff;
+  padding: 16px;
+  line-height: 1.8;
+}
+.index-banner .index-banner-img .index-banner-info a {
+  float: right;
+  display: inline-block;
+  color: #eee;
+  background-color: #E49F20;
+  padding: 12px 40px;
+}
+
+.index-welcome {
+  position: relative;
+  padding: 100px 0;
+}
+
+.index-welcome h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #DA2A37;
+}
+
+.index-welcome h3 {
+  float: left;
+  width: 580px;
+  margin-top: 100px;
+  font-size: 40px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #E49F20;
+}
+
+.index-welcome p {
+  width: 560px;
+  margin-top: 40px;
+  float: left;
+  color: #808080;
+  line-height: 2;
+}
+
+.index-content {
+  position: relative;
+  padding-top: 80px;
+  height: 320px;
+  background: url('../images/gr.jpg') no-repeat;
+  background-size: cover;
+}
+
+.index-content .index-content-box {
+  margin: 0 auto;
+  padding: 15px;
+  width: 380px;
+  background-color: #E49F20;
+  color: #eee;
+}
+
+.index-content .video-now {
+  position: relative;
+  padding: 16px;
+  border: 3px double #eee;
+  text-align: center;
+}
+
+.index-content .video-now h2 {
+  font-size: 64px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+}
+
+.index-content .video-now a {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 12px;
+  background-color: #DA2A37;
+}
+
+.index-events {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
