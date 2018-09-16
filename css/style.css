@@ -90,7 +90,7 @@ header .search-btn {
 
 footer {
   position: relative;
-  margin-top: 100px;
+  margin-top: 60px;
   padding:80px 0px;
   text-align: center;
   color: #eee;
@@ -244,6 +244,150 @@ footer .copyright {
 }
 
 .index-events {
-  padding: 80px 0;
+  position: relative;
+  padding: 70px 0;
   background-color: #f9f9f9;
+}
+
+.index-events h2 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #E49F20;
+}
+
+.index-events p {
+  position: relative;
+  margin: 0 auto;
+  width: 740px;
+  color: #808080;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.event-list {
+  padding: 50px 0;
+}
+
+.event-list .event-list-item {
+  background: #fff;
+}
+
+.event-list .event-list-item .item-col {
+  position: relative;
+  float: left;
+  width: 190px;
+  height: 114px;
+}
+
+
+.event-list .event-list-item .item-col img {
+  max-width: 190px;
+}
+
+.index-events h3 {
+  position: relative;
+  top: 8px;
+  font-size: 48px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #DA2A37;
+  text-align: center;
+}
+
+.event-list .event-list-item .item-col h3 span {
+    display:block;
+    font-size: 28px;
+    color: #E49F20;
+    line-height: 18px;
+}
+
+.event-list .event-list-item .item-col p {
+  text-align: left;
+  padding: 10px;
+  width: 440px;
+}
+
+.event-list .event-list-item .item-btn {
+  position: relative;
+  float: left;
+  margin-left: 380px;
+  margin-top: 40px;
+  width: 190px;
+}
+.event-list .event-list-item .item-btn a {
+  padding: 12px 14px;
+  background-color: #DA2A37;
+}
+
+.index-about {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.index-about h2 {
+  position: relative;
+  top: 8px;
+  font-size: 48px;
+  font-family: 'Simonetta', cursive;
+  font-weight: 100;
+  color: #DA2A37;
+}
+
+.index-about .index-about-img {
+  margin-top: 60px;
+}
+
+.index-about .index-about-img img {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.index-about .index-about-quote {
+  color: #8A8A8A;
+  font-size: 26px;
+  padding-top: 12px;
+  font-style: italic;
+}
+
+.index-about .index-about-quote span {
+  display:  block;
+  font-family: 'Simonetta', cursive;
+  font-style:  normal;
+  font-size: 25px;
+  padding-top: 14px;
+  color: #E49F20;
+}
+
+.index-about .about-btn-group {
+  padding-top: 20px;
+}
+
+.index-about .about-btn-group .about-btn {
+  position: relative;
+  display: inline-block;
+  margin: 8px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #DA2A37;
+}
+
+.index-about .about-btn-group .about-btn a {
+  color: #DA2A37;
+}
+
+.index-about .about-btn-group .active {
+  background: #E49F20;
+}
+
+.index-about .about-btn-group .active a {
+  color: #E49F20;
 }
